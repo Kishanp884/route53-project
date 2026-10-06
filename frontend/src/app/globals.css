@@ -1,0 +1,9 @@
+html, body { margin: 0; padding: 0; }
+body { background: var(--color-background-layout-main-5xxexl, #f8f8f8); }
+#top-nav { position: sticky; top: 0; z-index: 1002; }
+.r53-mono { font-family: Monaco, Menlo, Consolas, "Courier Prime", Courier, monospace; font-size: 13px; }
+.r53-values { white-space: pre-line; word-break: break-all; }
+.r53-suffix { display: flex; align-items: center; gap: 8px; }
+.r53-suffix > :first-child { flex: 1; min-width: 0; }
+.r53-kbd { display: inline-block; min-width: 18px; padding: 1px 6px; border: 1px solid #9ba7b6; border-bottom-width: 2px; border-radius: 4px; font-family: Monaco, Menlo, monospace; font-size: 12px; text-align: center; }
+.r53-zone-file textarea { font-family: Monaco, Menlo, Consolas, monospace !important; font-size: 13px !important; }

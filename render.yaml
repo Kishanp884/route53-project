@@ -1,0 +1,18 @@
+services:
+  - type: web
+    name: route53-clone-api
+    runtime: python
+    rootDir: backend
+    plan: free
+    buildCommand: pip install -r requirements.txt
+    startCommand: uvicorn app.main:app --host 0.0.0.0 --port $PORT
+    healthCheckPath: /api/health
+    envVars:
+      - key: PYTHON_VERSION
+        value: 3.12.7
+      - key: DATABASE_URL
+        value: sqlite:///./route53.db
+      - key: CORS_ORIGINS
+        value: "*"
+      - key: SEED_DEMO_DATA
+        value: "true"
