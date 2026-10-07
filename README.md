@@ -46,11 +46,11 @@ flash notifications). It does **not** serve real DNS.
 - Placeholder "Coming soon" pages for Health checks, Profiles, Traffic policies, Resolver, Domains, DNS Firewall and the other sections. The Dashboard shows live zone counts.
 
 **Bonus**
-- ✅ **Import BIND zone files** (paste the text or upload a file). Supports `$ORIGIN`, `$TTL`, `@`, relative names, blank owners, multi-line `( )` and TTL units such as `1h`.
-- ✅ **Export hosted zones** as **JSON** or **BIND**.
-- ✅ **Dark mode** and **compact density** (Settings menu, or press `d`).
-- ✅ **Keyboard shortcuts**: press `?` for the list (`/` filter, `c` create, `r` refresh, `g` then `z` for hosted zones, `g` then `d` for the dashboard, `[` to toggle the nav, `Alt+S` for search).
-- ✅ **Bulk operations**: multi-select delete and export for zones, multi-select delete for records, multi-record batch create.
+-  **Import BIND zone files** (paste the text or upload a file). Supports `$ORIGIN`, `$TTL`, `@`, relative names, blank owners, multi-line `( )` and TTL units such as `1h`.
+-  **Export hosted zones** as **JSON** or **BIND**.
+-  **Dark mode** and **compact density** (Settings menu, or press `d`).
+-  **Keyboard shortcuts**: press `?` for the list (`/` filter, `c` create, `r` refresh, `g` then `z` for hosted zones, `g` then `d` for the dashboard, `[` to toggle the nav, `Alt+S` for search).
+-  **Bulk operations**: multi-select delete and export for zones, multi-select delete for records, multi-record batch create.
 
 ---
 
